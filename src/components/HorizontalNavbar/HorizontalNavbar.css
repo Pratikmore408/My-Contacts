@@ -1,0 +1,38 @@
+.horizontal-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+  background: black;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.profile-img-box {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.profile h2 {
+  color: white;
+}
+.profile-img-box .fa-solid {
+  color: white;
+}
+
+.profile-img-box .fa-solid {
+  margin-left: 10px;
+}
