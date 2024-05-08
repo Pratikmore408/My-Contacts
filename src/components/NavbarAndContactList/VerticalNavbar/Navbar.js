@@ -41,13 +41,13 @@ const Navbar = () => {
   return (
     <ul>
       <li>
-        <a className="link">
+        <button className="link">
           <i className="fa-solid fa-address-book"></i>
           <div>
             <h2>All contacts</h2>
             <p>{totalContacts} contacts</p>
           </div>
-        </a>
+        </button>
       </li>
     </ul>
   );
